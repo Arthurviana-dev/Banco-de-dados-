@@ -47,7 +47,7 @@ session.add(usuario)
 session.commit()
 
 #fazer uma edição no banco de dados exemplo: nome
-usuario_arthur.nome = "arthur viana"
+usuario_arthur.nome = "batman goat"
 session.add(usuario_arthur)
 session.commit()
 #criando livro no banco de dados com cada informação armazenada na classe
