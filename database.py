@@ -46,7 +46,7 @@ usuario = Usuario(nome = "arthur",gmail = "qualquercoisa@gmail.com",senha = "123
 session.add(usuario)
 session.commit()
 
-#fazer uma edição no banco de dados exemplo: nome
+#Adicionar uma informação na tabela do banco de dados exemplo: nome
 usuario_arthur.nome = "batman goat"
 session.add(usuario_arthur)
 session.commit()
